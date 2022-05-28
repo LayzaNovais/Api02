@@ -51,6 +51,14 @@ export function fatorial(limite){
     return n;
 }
 
+export function sequenciaPar (totalDeN){
+
+   for (let numero =0; numero >= totalDeN; par = numero + 2 ){
+       numero + 2;
+   }
+   return numero;
+}
+
 
 
 

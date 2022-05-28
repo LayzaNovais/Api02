@@ -60,12 +60,12 @@ server.post('/fatorial', (req, resp) => {
 
 server.post('/sequenciaPar', (req, resp) => {
     try{
-        const {} = req.body;
+        const totalDeN = req.body.totalDeN;
 
-        const x = fatorial(numeros);
+        const x = sequenciaPar(totalDeN);
 
         resp.send({
-            fatorial: x
+            sequenciaPar: x
         })
 
     }catch(err){
